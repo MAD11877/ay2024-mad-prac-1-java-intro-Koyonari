@@ -29,11 +29,9 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter a number: ");
     int num = in.nextInt();
     ArrayList<Integer> list = new ArrayList<>();
     for (int i = 0; i < num; i++) {
-        System.out.print("Enter numbers for the list: ");
         int nums = in.nextInt();
         list.add(nums);
     }
