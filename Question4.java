@@ -16,8 +16,8 @@ public class Question4
      * 
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
-     
-    int base = 5;
+    Scanner in = new Scanner(System.in);
+    int base = in.nextInt();
     for (int j = base; base >= j; j--) {
       for (int i = 1; i <= j; i++) {
         System.out.print("*");
